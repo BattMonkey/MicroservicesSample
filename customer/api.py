@@ -9,11 +9,11 @@ api = Api(app)
 class Customer(Resource):
 	def get(self):
 		return {
-			'customers': ['Matt',
-				    'Tara',
-					'Nora',
-				    'Eli',
-					'Khai'
+			'customers': ['Bat',
+				    'Cow',
+					'Dog',
+				    'Horse',
+					'Lion'
 					]
 			}
 
